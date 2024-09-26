@@ -1,0 +1,36 @@
+{
+  "name": "api-express-prisma",
+  "version": "1.0.0",
+  "description": "Trabalho Avaliativo do Quarto de Semestre da Faculdade ADS. Matéria Desenvolvimento Web",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClaudioRibeiro2/api-express-prisma.git"
+  },
+  "keywords": [
+    "api",
+    "express",
+    "prisma",
+    "javascript",
+    "back-end"
+  ],
+  "author": "Claudio Conti Ribeiro, Natalia Koehler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ClaudioRibeiro2/api-express-prisma/issues"
+  },
+  "homepage": "https://github.com/ClaudioRibeiro2/api-express-prisma#readme",
+  "dependencies": {
+    "@prisma/client": "^5.19.1",
+    "express": "^4.21.0",
+    "express-async-errors": "^3.1.1",
+    "nodemon": "^3.1.7"
+  },
+  "devDependencies": {
+    "prisma": "^5.19.1"
+  }
+}
