@@ -83,7 +83,7 @@ class UsersController {
                     user_id: id,
                 }
             })
-            response.json(user.length())
+            response.json(user.length)
         } catch (error) {
             console.log(error)
             return response.status(400).send()
@@ -99,7 +99,7 @@ class UsersController {
                     diet: true,
                 }
             })
-            response.json(user.length())
+            response.json(user.lengthW)
         } catch (error) {
             console.log(error)
             return response.status(400).send()
@@ -115,7 +115,7 @@ class UsersController {
                     diet: false,
                 }
             })
-            response.json(user.length())
+            response.json(user.length)
         } catch (error) {
             console.log(error)
             return response.status(400).send()

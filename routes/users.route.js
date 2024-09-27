@@ -13,5 +13,4 @@ usersRoutes.get('/get/:id', usersController.get)
 usersRoutes.get('/meals/:id', usersController.getMeals)
 usersRoutes.get('/meals/indiet/:id', usersController.getMealsInDiet)
 usersRoutes.get('/meals/outdiet/:id', usersController.getMealsOutDiet)
-
 module.exports = usersRoutes
