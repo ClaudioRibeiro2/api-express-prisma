@@ -30,7 +30,7 @@ model Meal {
   calories Int?
   time DateTime?
   diet Boolean
-  user User @relation(fields: [user_id], references: [id])
+  user User @relation(fields: [user_id], references: [id], onDelete: Cascade)
   user_id String
 
   @@map("meals") 
